@@ -5,7 +5,7 @@
 REM script by un4
 
 set MVC=mvn
-set	LIBPATHZ=[your lib]
+set LIBPATHZ=[your lib]
 set GRID=[your groupid]
 set ARTID=[your artifectid]
 set LIBVER=[your version]
