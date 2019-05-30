@@ -13,7 +13,7 @@ set LIBVER=[your version]
 set INFOV=[+] Dependency info : GroupId=%GRID%, ArtifactId=%ARTID%, Version=%LIBVER%
 
 echo ============================================
-echo		EC02 DEPENDENCY INSTALLER 
+echo		MVN DEPENDENCY INSTALLER 
 echo ============================================
 call %MVC% -version > nul 2>&1
 if %ERRORLEVEL% neq 0 color 0c && echo.[-] **%MVC% NOT FOUND, please check your MAVEN configuration** && goto execErrorExit
